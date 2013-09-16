@@ -2,7 +2,10 @@
 
 body {
   background-image:url(../images/background_light.jpg);
-  background-repeat: repeat-x;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
   background-color: #C4C0BF;
   font-weight: 300;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -46,7 +49,7 @@ header {
 
  h1 {
   font-family:'Merriweather Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #top img {
@@ -86,7 +89,7 @@ section > article {
 section > article > h2 {
   font-size: 28px;
   font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 section > article > p {
   color: #5e5e5e;
@@ -107,7 +110,7 @@ h4 {
   margin-left: 20px;
   font-size: 24px;
   font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #sidebar > ul {
@@ -124,12 +127,12 @@ h4 {
 footer {
   background-color: black;
   color: gray;
-  padding: 35px 20px 15px 0;
+  padding: 20px 20px 15px 0;
 }
 
 footer > p {
   text-align: right;
-  padding: 30px 20px 0 0;
+  padding: 15px 20px 0 0;
 }
 
 a {
