@@ -1,8 +1,7 @@
 
 body {
   background-image:url(../images/background_light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-x;
   background-color: #C4C0BF;
   font-weight: lighter;
 }
@@ -18,11 +17,18 @@ header {
 
 #content {
   background-color: #f5f5f5;
+  position: relative;
+  top: 15px;
 }
 
 #top {
-<<<<<<< HEAD
   height: 350px;
+  border:1px solid white;
+  background-image: linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -o-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -moz-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -webkit-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -ms-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
 }
 
 #content {
@@ -32,10 +38,11 @@ header {
 .left {
   width: 492px;
   float: left;
+  padding: 15px;
 }
 
 #top img {
-  width: 425px;
+  width: 410px;
   float: right;
   padding: 5px 5px 5 5;
   border: 2px solid #C4C0BF;
@@ -48,15 +55,34 @@ header {
 }
 
 #articles {
-  width: 710px;
+  width: 690px;
   float: left;
-  background-color: green;
+  padding: 0 10px 10px 10px;
+}
+
+section article {
+  border-bottom: 1px solid #C4C0BF;
+  background-image: linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -o-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -moz-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -webkit-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  background-image: -ms-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
 }
 
 #sidebar {
   width: 250px;
   float: right;
-  background-color: yellow;
+  background-color: #a9a9a9;
+  height: 696px;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+#sidebar > ul {
+  margin-left: -20px;
+  line-height: 35px;
 }
 
 #sidebar > ul > li {
@@ -71,8 +97,14 @@ footer {
 
 footer > p {
   text-align: right;
+  padding: 30px 20px 0 0;
 }
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  margin-top: 0;
+  padding-top: 10px;
 }
