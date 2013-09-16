@@ -9,14 +9,19 @@ body {
 div {
   width: 960px;
   margin: auto;
+  /*background-color: red;*/
 }
 
 header {
   margin-top: 25px;
 }
-=======
+
+#top {
+  background-color: yellow;
+}
+
 .left {
-  width: 750px;
+  width: 740px;
   float: left;
 }
 
@@ -31,5 +36,16 @@ header {
 
 #articles {
   width: 640px;
+  float: left;
+  background-color: green;
+}
+
+#sidebar {
+  width: 320px;
+  float: right;
+}
+
+#sidebar > ul > li {
+  list-style: none;
 }
 
