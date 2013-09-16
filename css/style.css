@@ -1,0 +1,15 @@
+body {
+  background-image:url(../images/background_light.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #C4C0BF;
+}
+
+div {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  margin-top: 25px;
+}
