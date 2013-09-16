@@ -1,0 +1,23 @@
+div {
+  width: 960px;
+  margin: auto;
+}
+
+.left {
+  width: 750px;
+  float: left;
+}
+
+#top img {
+  width: 200px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#articles {
+  width: 640px;
+}
+
