@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300);
 
 body {
   background-image:url(../images/background_light.jpg);
   background-repeat: repeat-x;
   background-color: #C4C0BF;
-  font-weight: lighter;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
 
 div {
@@ -39,6 +42,11 @@ header {
   width: 492px;
   float: left;
   padding: 15px;
+ }
+
+ h1 {
+  font-family:'Merriweather Sans', sans-serif;
+  font-weight: 300;
 }
 
 #top img {
@@ -67,6 +75,25 @@ section article {
   background-image: -moz-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
   background-image: -webkit-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
   background-image: -ms-linear-gradient(top, rgb(240,236,235) 6%, rgb(252,252,252) 34%, rgb(252,252,252) 82%);
+  /*height: 700px;*/
+  /*padding: 10px;*/
+}
+
+section > article {
+  border-bottom: 1px solid #C4C0BF;
+}
+
+section > article > h2 {
+  font-size: 28px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+section > article > p {
+  color: #5e5e5e;
+}
+
+section > article > .bold {
+  font-weight: bold;
 }
 
 #sidebar {
@@ -78,6 +105,9 @@ section article {
 
 h4 {
   margin-left: 20px;
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
 }
 
 #sidebar > ul {
@@ -87,12 +117,14 @@ h4 {
 
 #sidebar > ul > li {
   list-style: none;
+  line-height: 35px;
+  color: #68677D;
 }
 
 footer {
   background-color: black;
   color: gray;
-  padding: 10px 0;
+  padding: 35px 20px 15px 0;
 }
 
 footer > p {
