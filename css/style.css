@@ -4,30 +4,38 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #C4C0BF;
+  font-weight: lighter;
 }
 
 div {
   width: 960px;
   margin: auto;
-  /*background-color: red;*/
-}
+  }
 
 header {
   margin-top: 25px;
 }
 
 #top {
-  background-color: yellow;
+  height: 350px;
+}
+
+#content {
+  background-color: #f5f5f5;
 }
 
 .left {
-  width: 740px;
+  width: 492px;
   float: left;
 }
 
 #top img {
-  width: 200px;
+  width: 425px;
   float: right;
+  padding: 5px 5px 5 5;
+  border: 2px solid #C4C0BF;
+  margin: 17px 17px 0 0;
+
 }
 
 .clear {
@@ -35,14 +43,15 @@ header {
 }
 
 #articles {
-  width: 640px;
+  width: 710px;
   float: left;
   background-color: green;
 }
 
 #sidebar {
-  width: 320px;
+  width: 250px;
   float: right;
+  background-color: yellow;
 }
 
 #sidebar > ul > li {
