@@ -33,3 +33,12 @@ header {
   width: 640px;
 }
 
+footer {
+  background-color: black;
+  color: gray;
+  padding: 10px 0;
+}
+
+footer > p {
+  text-align: right;
+}
