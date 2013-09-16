@@ -1,10 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300);
 
 body {
   background-image:url(../images/background_light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-x;
   background-color: #C4C0BF;
-  font-weight: lighter;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
 
 div {
@@ -18,10 +20,11 @@ header {
 
 #content {
   background-color: #f5f5f5;
+  position: relative;
+  top: 15px;
 }
 
 #top {
-<<<<<<< HEAD
   height: 350px;
 }
 
@@ -32,10 +35,16 @@ header {
 .left {
   width: 492px;
   float: left;
+  padding: 15px;
+ }
+
+ h1 {
+  font-family:'Merriweather Sans', sans-serif;
+  font-weight: 300;
 }
 
 #top img {
-  width: 425px;
+  width: 410px;
   float: right;
   padding: 5px 5px 5 5;
   border: 2px solid #C4C0BF;
@@ -48,25 +57,58 @@ header {
 }
 
 #articles {
-  width: 710px;
+  width: 690px;
   float: left;
-  background-color: green;
+  height: 700px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+section > article {
+  border-bottom: 1px solid #C4C0BF;
+}
+
+section > article > h2 {
+  font-size: 28px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+section > article > p {
+  color: #5e5e5e;
+}
+
+section > article > .bold {
+  font-weight: bold;
 }
 
 #sidebar {
   width: 250px;
   float: right;
-  background-color: yellow;
+  background-color: #A9A9A9;
+  height: 720px;
+}
+
+h4 {
+  margin-left: 20px;
+  font-size: 24px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+}
+
+#sidebar > ul {
+  margin-left: -20px;
 }
 
 #sidebar > ul > li {
   list-style: none;
+  line-height: 35px;
+  color: #68677D;
 }
 
 footer {
   background-color: black;
   color: gray;
-  padding: 10px 0;
+  padding: 35px 20px 15px 0;
 }
 
 footer > p {
