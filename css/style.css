@@ -2,9 +2,8 @@
 
 body {
   background-image:url(../images/background_light.jpg);
-  width: 100%;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: top center;
   background-size: 100% auto;
   background-color: #C4C0BF;
   font-weight: 300;
